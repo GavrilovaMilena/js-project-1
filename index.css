@@ -10,12 +10,35 @@ body header {
   margin: 0;
   display: flex;
   margin: 15px 100px 0 100px;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
 }
 body header .logo {
   width: 150px;
+  cursor: pointer;
 }
-body header .header_title {
-  font-size: 56px;
+body header .menu {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+}
+body header .menu .menu_title {
+  font-size: 25px;
+  margin-right: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+body header .menu .menu_title:last-child {
+  margin-right: 0;
+}
+body header .menu .menu_title:hover {
+  border-bottom: 1px solid rgb(185, 13, 219);
+}
+body header .profile {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
 body main {
   width: 100%;

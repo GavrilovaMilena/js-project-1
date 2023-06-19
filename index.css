@@ -26,7 +26,7 @@ body header .menu {
 }
 body header .menu .menu_title {
   font-size: 25px;
-  margin-right: 70px;
+  margin-right: 150px;
   height: 30px;
   cursor: pointer;
   font-weight: bold;
@@ -50,9 +50,31 @@ body main {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 150px;
 }
 body main section {
   margin: 0 150px;
+}
+body main section .wrapper_waite {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+body main section .wrapper_waite .img_waite {
+  width: 260px;
+  margin-right: 150px;
+}
+body main section .wrapper_moon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+body main section .wrapper_moon .img_moon {
+  width: 305px;
+  margin-left: 150px;
+}
+body main section .text_tarot {
+  width: 652px;
+  font-size: 21px;
 }
 body footer {
   color: #000;

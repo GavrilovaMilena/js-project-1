@@ -24,7 +24,7 @@ body {
       display: flex;
       .menu_title {
         font-size: 25px;
-        margin-right: 70px;
+        margin-right: 150px;
         height: 30px;
         cursor: pointer;
         font-weight: bold;
@@ -53,8 +53,30 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 150px;
     section {
       margin: 0 150px;
+      .wrapper_waite {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 150px;
+        .img_waite {
+          width: 260px;
+          margin-right: 150px;
+        }
+      }
+      .wrapper_moon {
+        display: flex;
+        flex-direction: row-reverse;
+        .img_moon {
+          width: 305px;
+          margin-left: 150px;
+        }
+      }
+      .text_tarot {
+        width: 652px;
+        font-size: 21px;
+      }
     }
   }
   footer {

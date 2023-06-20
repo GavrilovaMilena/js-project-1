@@ -6,14 +6,35 @@ body {
   color: white;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(329deg, #ad4e4d, #a21572, #322bae)
+    no-repeat;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  h2 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
 
   header {
-    margin: 0;
     display: flex;
-    margin: 15px 100px 0 100px;
+    padding: 15px 100px 0 100px;
     color: #000;
     justify-content: space-between;
     align-items: center;
+    box-shadow: -4px 16px 42px -7px #000000;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+
     .logo {
       width: 150px;
       cursor: pointer;
@@ -48,34 +69,90 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: -webkit-linear-gradient(329deg, #ad4e4d, #a21572, #322bae)
-      no-repeat;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-top: 150px;
+    margin-top: 260px;
     section {
       margin: 0 150px;
       .wrapper_waite {
         display: flex;
-        flex-direction: row;
-        margin-bottom: 150px;
-        .img_waite {
-          width: 260px;
-          margin-right: 150px;
+        flex-direction: column;
+        .tarot {
+          font-size: 50px;
+          text-align: center;
+        }
+        .container_waite {
+          margin-top: 25px;
+          display: flex;
+          .container_photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .photo_waite {
+              width: 500px;
+              height: 287px;
+              border-radius: 15px;
+              margin-right: 25px;
+            }
+            .photo_link {
+              text-decoration: none;
+              color: black;
+              font-weight: bold;
+              background-color: white;
+              border-radius: 15px;
+              height: 26px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 365px;
+              margin-top: 25px;
+            }
+          }
+          .text_waite {
+            font-size: 22px;
+            margin: 0;
+          }
+        }
+        .container_waite-two {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: row-reverse;
+          .container_photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .photo_waite {
+              width: 500px;
+              height: 630px;
+              border-radius: 15px;
+              margin-left: 25px;
+            }
+            .photo_link {
+              text-decoration: none;
+              color: black;
+              font-weight: bold;
+              background-color: white;
+              border-radius: 15px;
+              height: 26px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 365px;
+              margin-top: 25px;
+            }
+          }
+          .text_waite {
+            font-size: 22px;
+            margin: 0;
+          }
         }
       }
       .wrapper_moon {
         display: flex;
-        flex-direction: row-reverse;
-        .img_moon {
-          width: 305px;
-          margin-left: 150px;
+        flex-direction: column;
+        margin-top: 50px;
+        .tarot {
+          font-size: 50px;
+          text-align: center;
         }
-      }
-      .text_tarot {
-        width: 652px;
-        font-size: 21px;
       }
     }
   }

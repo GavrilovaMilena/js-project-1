@@ -6,14 +6,30 @@ body {
   color: white;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body h2 {
+  margin: 0;
+}
+body p {
+  margin: 0;
 }
 body header {
-  margin: 0;
   display: flex;
-  margin: 15px 100px 0 100px;
+  padding: 15px 100px 0 100px;
   color: #000;
   justify-content: space-between;
   align-items: center;
+  box-shadow: -4px 16px 42px -7px #000000;
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 body header .logo {
   width: 150px;
@@ -47,34 +63,92 @@ body main {
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding-top: 150px;
+  margin-top: 260px;
 }
 body main section {
   margin: 0 150px;
 }
 body main section .wrapper_waite {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 150px;
+  flex-direction: column;
 }
-body main section .wrapper_waite .img_waite {
-  width: 260px;
-  margin-right: 150px;
+body main section .wrapper_waite .tarot {
+  font-size: 50px;
+  text-align: center;
 }
-body main section .wrapper_moon {
+body main section .wrapper_waite .container_waite {
+  margin-top: 25px;
+  display: flex;
+}
+body main section .wrapper_waite .container_waite .container_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section .wrapper_waite .container_waite .container_photo .photo_waite {
+  width: 500px;
+  height: 287px;
+  border-radius: 15px;
+  margin-right: 25px;
+}
+body main section .wrapper_waite .container_waite .container_photo .photo_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 15px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+  margin-top: 25px;
+}
+body main section .wrapper_waite .container_waite .text_waite {
+  font-size: 22px;
+  margin: 0;
+}
+body main section .wrapper_waite .container_waite-two {
+  margin-top: 50px;
   display: flex;
   flex-direction: row-reverse;
 }
-body main section .wrapper_moon .img_moon {
-  width: 305px;
-  margin-left: 150px;
+body main section .wrapper_waite .container_waite-two .container_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-body main section .text_tarot {
-  width: 652px;
-  font-size: 21px;
+body main section .wrapper_waite .container_waite-two .container_photo .photo_waite {
+  width: 500px;
+  height: 630px;
+  border-radius: 15px;
+  margin-left: 25px;
+}
+body main section .wrapper_waite .container_waite-two .container_photo .photo_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 15px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+  margin-top: 25px;
+}
+body main section .wrapper_waite .container_waite-two .text_waite {
+  font-size: 22px;
+  margin: 0;
+}
+body main section .wrapper_moon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+body main section .wrapper_moon .tarot {
+  font-size: 50px;
+  text-align: center;
 }
 body footer {
   color: #000;

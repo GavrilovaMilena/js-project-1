@@ -109,7 +109,7 @@ body main section .wrapper_waite .container_waite .text_waite {
   margin: 0;
 }
 body main section .wrapper_waite .container_waite-two {
-  margin-top: 50px;
+  margin-top: 75px;
   display: flex;
   flex-direction: row-reverse;
 }

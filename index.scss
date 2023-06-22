@@ -11,6 +11,11 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(329deg, #ad4e4d, #a21572, #322bae) no-repeat;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // background-color: #5a5a5a;
+
+  h1 {
+    margin: 0;
+  }
 
   h2 {
     margin: 0;
@@ -69,12 +74,69 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 260px;
+    margin-top: 180px;
     section {
-      margin: 0 150px;
+      // .wrapper_tarot {
+      //   margin: 0 150px;
+      //   .tarot_title {
+      //     font-size: 45px;
+      //     margin-bottom: 20px;
+      //     border-bottom: 1px solid;
+      //     padding-bottom: 10px;
+      //   }
+      //   .container_tarot {
+      //     display: flex;
+      //     flex-direction: row;
+      //     justify-content: space-between;
+      //     .tarot_text {
+      //       font-size: 20px;
+      //       width: 50%;
+      //       font-weight: 200;
+      //     }
+      //     .img_tarot {
+      //       width: 625px;
+      //       height: 370px;
+      //     }
+      //   }
+      // }
+      .wrapper_tarot_details {
+        margin-top: 100px;
+        .container_tarot_title {
+          background-image: url("images/waite.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          width: 100%;
+          height: 500px;
+          position: relative;
+          .tarot_title {
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 100px;
+          }
+        }
+        .container_tarot_title:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: 2;
+        }
+        .container_tarot {
+          font-size: 22px;
+          margin: 50px 250px 0 250px;
+        }
+      }
     }
   }
-  footer {
-    color: #000;
-  }
+}
+footer {
+  color: #000;
 }

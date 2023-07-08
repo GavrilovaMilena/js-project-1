@@ -103,6 +103,9 @@ body main section .wrapper_tarot_details .container_tarot {
   font-size: 22px;
   margin: 50px 300px;
 }
+body main section .wrapper_tarot_details .container_tarot .tarot_text {
+  font-weight: 600;
+}
 
 footer {
   color: #000;

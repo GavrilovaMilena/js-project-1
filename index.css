@@ -22,6 +22,32 @@ body p {
 body span {
   font-weight: 600;
 }
+body span-1 {
+  font-weight: 600;
+  background-color: #f08206;
+  padding: 5px 10px;
+  border-radius: 5px 15px;
+}
+body span-2 {
+  font-weight: 600;
+  background-color: #cafbff;
+  padding: 5px 10px;
+  border-radius: 5px 15px;
+}
+body span-3 {
+  font-weight: 600;
+  background-color: #4255ff;
+  padding: 5px 10px;
+  border-radius: 5px 15px;
+  color: white;
+}
+body span-4 {
+  font-weight: 600;
+  background-color: #007206;
+  padding: 5px 10px;
+  border-radius: 5px 15px;
+  color: white;
+}
 body header {
   display: flex;
   padding: 15px 100px 0 100px;

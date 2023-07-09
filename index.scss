@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   color: white;
   margin: 0;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Montserrat", sans-serif;
   // background: -webkit-linear-gradient(329deg, #ad4e4d, #a21572, #322bae)
   //   no-repeat;
   /* Chrome 10-25, Safari 5.1-6 */
@@ -25,6 +25,10 @@ body {
     margin: 0;
   }
 
+  span {
+    font-weight: 600;
+  }
+
   header {
     display: flex;
     padding: 15px 100px 0 100px;
@@ -32,10 +36,9 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: -4px 16px 42px -7px #000000;
-    z-index: 1;
     position: fixed;
     background-color: white;
-    z-index: 5;
+    z-index: 11;
     top: 0;
     left: 0;
     right: 0;
@@ -109,12 +112,46 @@ body {
         .container_tarot {
           font-size: 22px;
           margin: 50px 300px;
-          .tarot_text { 
-            font-weight: 600;
+          .tarot_text {
+            font-family: "Noto Serif", sans-serif;
           }
         }
         .cards_tarot_wrapper {
           margin: 0 100px;
+          display: flex;
+          flex-direction: column;
+          .cards_title {
+            font-size: 45px;
+            font-weight: 600;
+            letter-spacing: 5px;
+            border-bottom: 1px solid white;
+            padding-bottom: 7px;
+          }
+          .cards_container {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .card {
+              display: flex;
+              background-color: white;
+              border-radius: 10px;
+              width: 400px;
+              flex-direction: column;
+              align-items: center;
+              color: #000000;
+              .card_img {
+                display: flex;
+                width: 200px;
+                height: 300px;
+                padding-top: 15px;
+              }
+              .card_text {
+                padding: 15px;
+                font-size: 18px;
+              }
+            }
+          }
         }
       }
     }

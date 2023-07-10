@@ -174,4 +174,11 @@ body main section .wrapper_tarot_details .cards_tarot_wrapper .cards_container .
 
 footer {
   color: #000;
+}
+
+@media (max-width: 1050px) {
+  body main section .wrapper_tarot_details .container_tarot {
+    font-size: 30px;
+    margin: 50px 50px;
+  }
 }/*# sourceMappingURL=index.css.map */

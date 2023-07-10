@@ -48,7 +48,7 @@ body {
     background-color: #4255ff;
     padding: 5px 10px;
     border-radius: 5px 15px;
-    color: white
+    color: white;
   }
 
   span-4 {
@@ -56,7 +56,7 @@ body {
     background-color: #007206;
     padding: 5px 10px;
     border-radius: 5px 15px;
-    color: white
+    color: white;
   }
 
   header {
@@ -189,4 +189,19 @@ body {
 }
 footer {
   color: #000;
+}
+
+@media (max-width: 1050px) {
+  body {
+    main {
+      section {
+        .wrapper_tarot_details {
+          .container_tarot {
+            font-size: 30px;
+            margin: 50px 50px;
+          }
+        }
+      }
+    }
+  }
 }

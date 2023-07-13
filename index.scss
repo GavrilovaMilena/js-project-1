@@ -197,8 +197,29 @@ footer {
       section {
         .wrapper_tarot_details {
           .container_tarot {
-            font-size: 30px;
+            font-size: 35px;
             margin: 50px 50px;
+          }
+          .cards_tarot_wrapper {
+            margin: 0 50px;
+            .cards_title {
+              font-size: 55px;
+            }
+            .cards_container {
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              .card {
+                width: 100%;
+                margin-bottom: 50px;
+                .card_text {
+                  font-size: 35px;
+                }
+              }
+              .card:last-child {
+                margin-bottom: 0;
+              }
+            }
           }
         }
       }

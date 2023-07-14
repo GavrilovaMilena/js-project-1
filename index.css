@@ -146,6 +146,9 @@ body main section .wrapper_tarot_details .cards_tarot_wrapper .cards_title {
   border-bottom: 1px solid white;
   padding-bottom: 7px;
 }
+body main section .wrapper_tarot_details .cards_tarot_wrapper #div1 {
+  display: none;
+}
 body main section .wrapper_tarot_details .cards_tarot_wrapper .cards_container {
   margin-top: 50px;
   display: flex;

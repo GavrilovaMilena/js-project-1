@@ -145,6 +145,13 @@ body main section .wrapper_tarot_details .cards_tarot_wrapper .cards_title {
   letter-spacing: 5px;
   border-bottom: 1px solid white;
   padding-bottom: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+body main section .wrapper_tarot_details .cards_tarot_wrapper .cards_title:hover {
+  border-bottom: 1px solid rgb(199, 116, 255);
+  letter-spacing: 10px;
+  transition: 1s;
 }
 body main section .wrapper_tarot_details .cards_tarot_wrapper #div1 {
   display: none;

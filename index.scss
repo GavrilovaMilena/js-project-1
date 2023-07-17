@@ -156,6 +156,13 @@ body {
             letter-spacing: 5px;
             border-bottom: 1px solid white;
             padding-bottom: 7px;
+            cursor: pointer;
+            transition: 1s;
+          }
+          .cards_title:hover {
+            border-bottom: 1px solid rgb(199, 116, 255);
+            letter-spacing: 10px;
+            transition: 1s;
           }
           #div1{
             display: none;
